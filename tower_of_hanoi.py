@@ -7,4 +7,7 @@ def TowerOfHanoi(n , source, destination, auxiliary):
     TowerOfHanoi(n-1, auxiliary, destination, source)
           
 n = int(input('Enter n: '))
-TowerOfHanoi(n,'A','B','C') 
+TowerOfHanoi(n,'A','C','B')
+
+
+
